@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://goo.gl/rKJWvA' target='_blank'><img src='http://inoxhungcuong.com/public/upload/slideshow/thiet-bi-inox.jpg' width='500px'/><br/>Bán thiết bị inox</a>. Nhà thầu uy tín và chuyên nghiệp. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://goo.gl/rKJWvA' target='_blank'><img src='http://inoxhungcuong.com/public/upload/slideshow/thiet-bi-inox.jpg' width='500px'/><br/>Bán thiết bị inox</a>. Nhà thầu uy tín và chuyên nghiệp . <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
